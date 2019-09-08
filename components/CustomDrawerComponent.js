@@ -1,5 +1,5 @@
-import React from 'react';
-import {Text, StyleSheet, View} from 'react-native';
+import React from "react";
+import { Text, StyleSheet, View } from "react-native";
 
 class CustomDrawerComponent extends React.Component {
   render() {
@@ -16,6 +16,7 @@ export default CustomDrawerComponent;
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    alignItems: 'center',
-  },
+    alignItems: "center",
+    justifyContent: "center"
+  }
 });
